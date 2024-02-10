@@ -15,9 +15,9 @@ html {
     left: 50%; /* Lo coloca en el centro horizontal de la ventana */
     transform: translateX(-50%); /* Centra el textarea horizontalmente */
     width: 95%;
-    min-height: 90px; /* Altura mínima para evitar que el cuadro de texto sea demasiado pequeño */
+    min-height: 100px; /* Altura mínima para evitar que el cuadro de texto sea demasiado pequeño */
     border: 1px solid #252525;
-    border-radius: 5px;
+    border-radius: 0px;
     padding: 10px;
     font-size: 12px;
     font-family: Arial, sans-serif;

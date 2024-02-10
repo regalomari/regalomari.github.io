@@ -2,33 +2,36 @@ html {
     overflow-y: hidden;
   }
   .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Establece el contenedor a la altura completa de la ventana */
-  }
-  
-textarea {
-    color: #000000;
-    position: fixed;
-    top: 30px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 95%; /* Ajusta el ancho del cuadro de texto */
-    min-height: 200px; /* Ajusta la altura mínima del cuadro de texto */
-    border: 1px solid #252525;
-    border-radius: 0px;
-    padding: 10px;
-    font-size: 12px;
-    font-family: Arial, sans-serif;
-    line-height: 1;
-    font-weight: bold;
-    resize: none;
-    box-sizing: border-box;
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(10px);
+    display: flex; /* Establece el contenedor como un contenedor flexible */
+    justify-content: center; /* Centra horizontalmente los elementos hijos dentro del contenedor */
+    align-items: center; /* Centra verticalmente los elementos hijos dentro del contenedor */
 }
+
+textarea {
+    color: #000000; /* Establece el color del texto en negro */
+    position: fixed; /* Fija la posición del textarea en relación con la ventana del navegador */
+    top: 50px; /* Establece la distancia desde la parte superior de la ventana del navegador */
+    left: 50%; /* Establece el punto de partida del textarea en el 50% del ancho del viewport */
+    transform: translateX(-50%); /* Centra horizontalmente el textarea */
+    width: 95%;
+    min-height: 95px; /* Establece el ancho del textarea al 95% del ancho del viewport */
+    height: auto; /* Permite que la altura del textarea se ajuste automáticamente según el contenido */
+    border: 1px solid #252525; /* Establece un borde sólido de 1px con color #252525 */
+    border-radius: 10px; /* Elimina el redondeo de las esquinas */
+    padding: 10px; /* Establece un relleno interno de 10px */
+    font-size: 11px; /* Establece el tamaño de la fuente en 12px */
+    font-family: Arial, sans-serif; /* Define la familia de fuentes a utilizar */
+    line-height: 1.2; /* Establece la altura de línea en 1.2 veces el tamaño de la fuente */
+    font-weight: bold; /* Establece el peso de la fuente en negrita */
+    resize: none; /* Evita que el usuario redimensione el textarea */
+    box-sizing: border-box; /* Incluye el tamaño del borde y el relleno en el ancho y alto del textarea */
+    text-align: center; /* Centra el texto horizontalmente dentro del textarea */
+    background-color: rgba(255, 255, 255, 0.5); /* Establece el color de fondo con un 50% de opacidad */
+    backdrop-filter: blur(10px); /* Aplica un desenfoque de 10px al fondo detrás del textarea */
+    margin: 1px; /* Establece márgenes de 10px alrededor del textarea */
+}
+
+
 
   
   

@@ -8,27 +8,28 @@ html {
     height: 100vh; /* Establece el contenedor a la altura completa de la ventana */
   }
   
-  textarea {
+textarea {
     color: #000000;
-    position: fixed; /* Establece el posicionamiento fijo para el cuadro de texto */
-    top: 30px; /* Lo coloca en la parte superior de la ventana */
-    left: 50%; /* Lo coloca en el centro horizontal de la ventana */
-    transform: translateX(-50%); /* Centra el textarea horizontalmente */
-    width: 95%;
-    min-height: 100px; /* Altura mínima para evitar que el cuadro de texto sea demasiado pequeño */
+    position: fixed;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 95%; /* Ajusta el ancho del cuadro de texto */
+    min-height: 200px; /* Ajusta la altura mínima del cuadro de texto */
     border: 1px solid #252525;
     border-radius: 0px;
     padding: 10px;
     font-size: 12px;
     font-family: Arial, sans-serif;
     line-height: 1;
-    font-weight: bold; /* Hace que el texto sea más grueso */
+    font-weight: bold;
     resize: none;
-    box-sizing: border-box; /* Importante para incluir el relleno y el borde en el tamaño total del cuadro de texto */
-    text-align: center; /* Centra el texto horizontalmente */
-    background-color: rgba(255, 255, 255, 0.5); /* Color de fondo semitransparente */
-    backdrop-filter: blur(10px); /* Aplica un efecto de desenfoque al fondo */
-  }
+    box-sizing: border-box;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+}
+
   
   
 *,

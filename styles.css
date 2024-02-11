@@ -14,13 +14,13 @@ textarea {
     top: 50px; /* Establece la distancia desde la parte superior de la ventana del navegador */
     left: 50%; /* Establece el punto de partida del textarea en el 50% del ancho del viewport */
     transform: translateX(-50%); /* Centra horizontalmente el textarea */
-    width: 95%;
+    width: 105%;
     min-height: 95px; /* Establece el ancho del textarea al 95% del ancho del viewport */
     height: auto; /* Permite que la altura del textarea se ajuste automáticamente según el contenido */
     border: 1px solid #252525; /* Establece un borde sólido de 1px con color #252525 */
     border-radius: 10px; /* Elimina el redondeo de las esquinas */
     padding: 10px; /* Establece un relleno interno de 10px */
-    font-size: 11px; /* Establece el tamaño de la fuente en 12px */
+    font-size: 12px; /* Establece el tamaño de la fuente en 12px */
     font-family: Arial, sans-serif; /* Define la familia de fuentes a utilizar */
     line-height: 1.2; /* Establece la altura de línea en 1.2 veces el tamaño de la fuente */
     font-weight: bold; /* Establece el peso de la fuente en negrita */
@@ -31,10 +31,6 @@ textarea {
     backdrop-filter: blur(10px); /* Aplica un desenfoque de 10px al fondo detrás del textarea */
     margin: 1px; /* Establece márgenes de 10px alrededor del textarea */
 }
-
-
-
-  
   
 *,
 *::after,
@@ -45,7 +41,7 @@ textarea {
 }
 
 :root {
-    --light-blue-color: #b61b30; /* Azul pastoso claro */
+    --light-blue-color: #c40efc; /* Azul pastoso claro */
     --black-color: #000000; /* Negro */
   }
 

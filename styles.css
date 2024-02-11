@@ -1,6 +1,7 @@
 html {
     overflow-y: hidden;
   }
+
   .container {
     display: flex; /* Establece el contenedor como un contenedor flexible */
     justify-content: center; /* Centra horizontalmente los elementos hijos dentro del contenedor */
